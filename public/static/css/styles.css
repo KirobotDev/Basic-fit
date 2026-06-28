@@ -1,0 +1,168 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#navbar {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: -10.1px;
+    left: -8px;
+    width: 120rem;
+    height: 5rem;
+    z-index: -1;
+}
+
+#nva {
+    position: relative;
+    top: -5.5rem;
+    right: -8rem;
+    font-size: large;
+    background: none;
+    color: black;
+    border: none;
+    transition: 1s ease;
+    cursor: pointer;
+    height: 4.9rem;
+    transition: 0.55s ease;
+}
+
+#nva:hover {
+    border-bottom: 4px solid #2d2d2d;
+    border-radius: 5px;
+}
+
+#nva:active {
+    transition: 0.10s ease;
+    color: black;
+    transform: translateY(-2px);
+}
+
+#nvb {
+    position: relative;
+    top: -5.5rem;
+    right: -8rem;
+    font-size: large;
+    background: none;
+    color: black;
+    border: none;
+    transition: 1s ease;
+    cursor: pointer;
+    height: 4.5rem;
+    transition: 0.55s ease;
+}
+
+#nvb:hover {
+    border-bottom: 4px solid #2d2d2d;
+    border-radius: 5px;
+}
+
+#nvb:active {
+    transition: 0.10s ease;
+    color: black;
+    transform: translateY(-2px);
+}
+
+#bf {
+    position: relative;
+    top: 2.5px;
+    left: 3px;
+    cursor: pointer;
+}
+
+#btnbf {
+    position: relative;
+    top: 1.5rem;
+    left: 10px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    z-index: 2;
+}
+
+#imgbsft {
+    position: relative;
+    top: -2.1rem;
+    width: 80.9rem;
+    left: 50rem;
+}
+
+#hal {
+    position: relative;
+    width: 352px;
+    font-size: 2.5rem;
+    top: -48rem;
+    left: 10rem;
+    color: var(--flex-color-text-default, #2d2d2d);
+}
+
+#rslt {
+    position: relative;
+    width: 290px;
+    font-size: 2.5rem;
+    top: -49.5rem;
+    left: 10rem;
+    color: var(--flex-color-text-default, #2d2d2d);
+}
+
+/*
+var(--flex-button-primary-background-color, #592bb2)
+*/
+
+#gonow {
+    position: relative;
+    border: none;
+    top: -48rem;
+    left: 10rem;
+    border-radius: 16px;
+    color: white;
+    background-color: var(--flex-button-primary-background-color, #592bb2);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 18rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#gonow:hover {
+    background-color: var(--flex-button-primary-active-background-color, #3b1480);
+}
+
+#gonow:active {
+    background-color: rgb(43, 9, 97);
+}
+
+
+#join {
+    position: relative;
+    border: none;
+    top: -79.5rem;
+    left: 110rem;
+    border-radius: 16px;
+    color: white;
+    background-color: var(--flex-button-primary-background-color, #592bb2);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#join:hover {
+    background-color: var(--flex-button-primary-active-background-color, #3b1480);
+}
+
+#join:active {
+    background-color: rgb(43, 9, 97);
+}
